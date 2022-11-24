@@ -1,0 +1,7 @@
+{
+    "name": "@cloud-cli/smb",
+    "version": "0.0.0",
+    "dependencies": {
+        "node-smb-server": "^0.10.0"
+    }
+}
