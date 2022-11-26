@@ -1,11 +1,21 @@
 {
   "name": "@cloud-cli/smb",
   "version": "0.0.0",
+  "keywords": [
+    "cloudy"
+  ],
+  "author": "Darlan Alves <me@darlanalv.es>",
   "dependencies": {
     "node-smb-server": "^0.10.0"
   },
   "scripts": {
     "build": "echo 'nothing to build'",
     "test": "echo true"
-  }
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.mjs",
+  "type": "module"
 }
